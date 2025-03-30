@@ -69,5 +69,6 @@
 
   .logo__github {
     width: 50%;
+    height: 0;
   }
 }

@@ -52,12 +52,10 @@
 
 @media (max-width: 1024px) {
   .carrossel {
+    flex-wrap: wrap;
     width: 90%;
   }
 
-  .card__swiper {
-    justify-content: center;
-  }
   .descricao__projeto,
   .link__projeto {
     font-size: 10px;

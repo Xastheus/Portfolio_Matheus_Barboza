@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="Styles/rodape.css" />
   </head>
   <body>
-    <header>
+    <header id="home">
       <ul class="cabecalho">
         <li>
           <h2 class="header_nome">Matheus Barboza</h2>
@@ -28,10 +28,10 @@
         </li>
         <li>
           <nav class="barra_navegacao">
-            <a href="index.html">Home</a>
-            <a href="#">Projetos</a>
-            <a href="#">Sobre mim</a>
-            <a href="#">Contato</a>
+            <a href="#home">Home</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#sobre-mim">Sobre mim</a>
+            <a href="#contato">Contato</a>
           </nav>
         </li>
         <li>
@@ -63,18 +63,18 @@
         de HTML, CSS, JavaScript e React...
       </p>
       <nav class="botoes__saiba-mais">
-        <a href="#"
+        <a href="#sobre-mim"
           >Saiba mais
           <img
             class="seta"
             src="icons/arrow_outward_24dp_D3D3D3_FILL0_wght400_GRAD0_opsz24.svg"
             alt="seta para cima e direita"
         /></a>
-        <a href="#">Contato</a>
+        <a href="#contato">Contato</a>
       </nav>
     </section>
 
-    <section class="carrossel">
+    <section id="projetos" class="carrossel">
       <h2 class="carrossel__projetos-titulo">Projetos</h2>
 
       <div class="carrossel__container">
@@ -224,7 +224,7 @@
       </div>
     </section>
 
-    <section class="sobre__mim">
+    <section id="sobre-mim" class="sobre__mim">
       <div class="texto__sobre">
         <h2>Sobre mim</h2>
         <p>
@@ -250,7 +250,7 @@
       />
     </section>
 
-    <footer>
+    <footer id="contato">
       <h2>Contato</h2>
 
       <div class="email">

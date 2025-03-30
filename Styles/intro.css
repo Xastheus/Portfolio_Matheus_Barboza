@@ -47,10 +47,10 @@ p {
 
 @media (max-width: 1200px) {
   .intro {
-    margin: 3em;
+    margin: 2em 4em;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-self: center;
+    justify-content: center;
   }
 }

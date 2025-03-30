@@ -58,6 +58,7 @@
   .cabecalho {
     margin: 0;
     justify-content: space-evenly;
+    width: 100%;
   }
   .barra_navegacao {
     display: none;

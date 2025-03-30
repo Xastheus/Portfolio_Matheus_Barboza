@@ -59,9 +59,11 @@
     display: flex;
     margin: 0;
     justify-content: space-evenly;
-    gap: 10px;
   }
   .barra_navegacao {
     display: none;
+  }
+  .redes {
+    gap: 10px;
   }
 }

@@ -58,6 +58,10 @@
     width: 90%;
   }
 
+  .descricao__projeto {
+    font-size: 14px;
+  }
+
   .descricao__projeto,
   .link__projeto {
     font-size: 10px;

@@ -42,7 +42,7 @@
 
 .redes {
   display: flex;
-  gap: 20px;
+  column-gap: 30px;
 }
 
 .logo__insta {
@@ -50,8 +50,7 @@
 }
 
 .logo__github {
-  width: 85%;
-  height: 52px;
+  width: 45px;
 }
 
 @media (max-width: 1200px) {
@@ -64,11 +63,10 @@
     display: none;
   }
   .redes {
-    gap: 0px;
+    column-gap: 10px;
   }
 
   .logo__github {
-    width: 10%;
-    height: 10px;
+    width: 52px;
   }
 }

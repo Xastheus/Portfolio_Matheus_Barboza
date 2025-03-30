@@ -25,6 +25,7 @@ footer h2 {
 .phone {
   display: flex;
   column-gap: 10px;
+  text-decoration: none;
 }
 
 .whatsapp {

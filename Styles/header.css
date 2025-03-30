@@ -63,10 +63,10 @@
     display: none;
   }
   .redes {
-    column-gap: 10px;
+    column-gap: 20px;
   }
 
   .logo__github {
-    width: 52px;
+    width: 46px;
   }
 }

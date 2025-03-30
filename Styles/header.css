@@ -66,4 +66,8 @@
   .redes {
     gap: 0px;
   }
+
+  .logo__github {
+    width: 50%;
+  }
 }

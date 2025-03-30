@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+15&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+  --fonte-texto: "Lato", sans-serif;
+  --fonte-especial: "Jersey 15", sans-serif;
+  --cor-de-fundo: #000;
+  --branco: #fff;
+  --cinza: #3c3d37;
+  --cinza-claro: #d3d3d3;
+  --preto: #000;
+  --azul: #255fdb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--cor-de-fundo);
+}
+
+p {
+  color: var(--branco);
+}

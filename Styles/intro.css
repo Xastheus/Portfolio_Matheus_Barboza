@@ -1,0 +1,56 @@
+.intro {
+  margin: 3em 25em 0 25em;
+  /* border: 2px solid var(--branco); */
+}
+
+h1 {
+  font-family: var(--fonte-texto);
+  color: var(--branco);
+  font-size: 28px;
+}
+
+p {
+  font-family: var(--fonte-texto);
+}
+
+.descricao__matheus {
+  color: #d3d3d3;
+  text-align: left;
+  padding-top: 0.5em;
+}
+
+.botoes__saiba-mais {
+  display: flex;
+  font-family: var(--fonte-texto);
+  gap: 18px;
+  padding-top: 1.5em;
+}
+
+.botoes__saiba-mais a {
+  text-decoration: none;
+  color: var(--cinza-claro);
+  border: 1px solid var(--cinza-claro);
+  border-radius: 18px;
+  font-size: 20px;
+  padding: 0.4em;
+}
+
+.seta {
+  width: 18px;
+}
+
+.botoes__saiba-mais a:hover {
+  background-color: var(--branco);
+  color: var(--preto);
+  opacity: 0.6;
+}
+
+@media (max-width: 1200px) {
+  .intro {
+    margin: 3em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-self: center;
+  }
+}

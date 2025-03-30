@@ -1,0 +1,49 @@
+.sobre__mim {
+  display: flex;
+  justify-content: space-between;
+  justify-self: center;
+  padding-top: 5em;
+  width: 90%;
+}
+
+.texto__sobre {
+  color: var(--branco);
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 700px;
+  text-align: justify;
+  padding-top: 1em;
+  margin: 0 2em;
+}
+
+.texto__sobre h2 {
+  font-family: var(--fonte-texto);
+  font-size: 50px;
+}
+
+.texto__sobre p {
+  color: var(--cinza-claro);
+  font-size: 16px;
+  padding-top: 1em;
+}
+
+.foto__matheus {
+  border: 2px solid var(--cinza-claro);
+  border-radius: 4px;
+  width: 30%;
+  margin: 1em 2em;
+}
+
+@media (max-width: 1000px) {
+  .sobre__mim {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .foto__matheus {
+    width: 40%;
+    margin-top: 2em;
+  }
+}

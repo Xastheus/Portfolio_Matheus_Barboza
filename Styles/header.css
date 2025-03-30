@@ -1,0 +1,66 @@
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  padding-top: 1.5em;
+  margin: 0 2em 0 2em;
+  list-style-type: none;
+  background-color: var(--preto);
+}
+
+.header_nome {
+  color: var(--branco);
+  font-family: var(--fonte-texto);
+  font-size: 20px;
+}
+
+.header_paragrafo {
+  color: var(--cinza-claro);
+  font-family: var(--fonte-texto);
+  font-size: 12px;
+}
+
+.barra_navegacao {
+  background-color: var(--cinza);
+  border-radius: 30px;
+  padding: 1.2em 0 1.2em 0;
+}
+
+.barra_navegacao a {
+  font-family: var(--fonte-texto);
+  text-decoration: none;
+  color: var(--branco);
+  margin: 0.5em 1em 0.5em 1em;
+  padding: 1em;
+}
+
+.barra_navegacao a:hover {
+  background-color: var(--preto);
+  border-radius: 28px;
+  opacity: 0.9;
+}
+
+.redes {
+  display: flex;
+  gap: 20px;
+}
+
+.logo__insta {
+  height: 52px;
+}
+
+.logo__github {
+  width: 85%;
+  height: 52px;
+}
+
+@media (max-width: 1200px) {
+  .cabecalho {
+    display: flex;
+    margin: 0;
+    justify-content: space-evenly;
+  }
+  .barra_navegacao {
+    display: none;
+  }
+}

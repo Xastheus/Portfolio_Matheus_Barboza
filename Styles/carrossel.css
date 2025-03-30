@@ -52,9 +52,7 @@
 
 @media (max-width: 1024px) {
   .carrossel {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
+    justify-self: center;
     width: 70%;
   }
 

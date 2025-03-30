@@ -52,8 +52,7 @@
 
 @media (max-width: 1024px) {
   .carrossel {
-    margin-right: 3em;
-    width: 70%;
+    width: 100%;
   }
 
   .descricao__projeto,

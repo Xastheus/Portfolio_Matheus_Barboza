@@ -61,7 +61,7 @@
   }
 
   .link__projeto {
-    border: 1px solid var(--branco);
+    display: none;
   }
 
   .swiper-button-next,

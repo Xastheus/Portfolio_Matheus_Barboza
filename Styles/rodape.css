@@ -25,11 +25,16 @@ footer h2 {
 .phone {
   display: flex;
   column-gap: 10px;
-  text-decoration: none;
 }
 
 .whatsapp {
   width: 24px;
+}
+
+.numero {
+  text-decoration: none;
+  color: var(--branco);
+  font-family: var(--fonte-texto);
 }
 
 .credito {
